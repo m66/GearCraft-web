@@ -134,6 +134,7 @@ export function Home() {
             {worldNames.map((name) => (
               <li key={name}>{name}</li>
             ))}
+            <li className="world-free">Build your mechanism</li>
           </ol>
         </div>
       </section>

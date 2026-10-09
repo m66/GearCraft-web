@@ -472,6 +472,17 @@ ul.nav-list {
   color: var(--accent);
 }
 
+/* Free Build is not a world: no number, dashed brass outline. */
+.world-list .world-free {
+  counter-increment: none;
+  border: 1px dashed var(--accent);
+  background: transparent;
+}
+
+.world-list .world-free::before {
+  content: '+ ';
+}
+
 .cta {
   text-align: center;
   background: linear-gradient(var(--bg), var(--bg-deep));
