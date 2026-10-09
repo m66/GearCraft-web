@@ -5,7 +5,7 @@ export const site = {
   fullName: 'GearCraft: Mechanical Puzzle',
   developer: 'Karen Manasyan',
   /** Public support address, shown on every page. Use one you are happy to see published. */
-  contactEmail: '[CONTACT EMAIL]',
+  contactEmail: 'support@gearcraft.app',
   /** Store listing URLs. Leave empty until a listing is live: its button then says "Coming soon". */
   googlePlayUrl: '',
   appStoreUrl: '',
